@@ -182,6 +182,7 @@ GER_CL_HISTORICAL = {
 	}
 }
 
+# Needs further research, German WW1 destroyers are a mess and very little information is available on the internet.
 GER_DD_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_DESTROYERS
 
@@ -189,37 +190,159 @@ GER_DD_HISTORICAL = {
 
 	type = ship
 
-	ship_types = { destroyer destroyer_1890 destroyer_1900 }
+	ship_types = { ship_hull_light destroyer }
         prefix = "SMS "
-	fallback_name = "Z-%d"
+	fallback_name = "T-%d"
 
 	ordered = {
-                1 = {"T174"}
-                2 = {"T175"}
-                3 = {"T176"}
-                4 = {"T177"}
-                5 = {"T178"}
-                6 = {"T179"}
-                7 = {"T180"}
-                8 = {"T181"}
-                9 = {"T182"}
-                10 = {"T183"}
-                11 = {"T184"}
-                12 = {"T185"}
-                13 = {"T186"}
-                14 = {"T187"}
-                15 = {"T188"}
-                16 = {"T189"}
-                17 = {"T190"}
-                18 = {"T191"}
-                19 = {"T192"}
-                20 = {"T193"}
-                21 = {"T194"}
-                22 = {"T195"}
-                23 = {"T196"}
-                24 = {"T197"}
-                25 = {"T198"}
-                26 = {"T199"}
-                27 = {"T200"}
+                1 = {"T-%d"}
+                2 = {"T-%d"}
+                3 = {"T-%d"}
+                4 = {"T-%d"}
+                5 = {"T-%d"}
+                6 = {"T-%d"}
+                7 = {"T-%d"}
+                8 = {"T-%d"}
+                9 = {"T-%d"}
+                10 = {"T-%d"}
+                11 = {"T-%d"}
+                12 = {"T-%d"}
+                13 = {"T-%d"}
+                14 = {"T-%d"}
+                15 = {"T-%d"}
+                16 = {"T-%d"}
+                17 = {"T-%d"}
+                18 = {"T-%d"}
+                19 = {"T-%d"}
+                20 = {"T-%d"}
+                21 = {"T-%d"}
+                22 = {"T-%d"}
+                23 = {"T-%d"}
+                24 = {"T-%d"}
+                25 = {"T-%d"}
+                26 = {"T-%d"}
+	}
+}
+
+GER_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { GER }
+
+	type = ship
+
+	ship_types = { ship_hull_submarine }
+        prefix = "SMU "
+	fallback_name = "U-%d"
+
+	ordered = {
+		1 = {"U-%d"}
+		2 = {"U-%d"}
+		3 = {"U-%d"}
+		4 = {"U-%d"}
+		5 = {"U-%d"}
+		6 = {"U-%d"}
+		7 = {"U-%d"}
+		8 = {"U-%d"}
+		9 = {"U-%d"}
+		10 = {"U-%d"}
+		11 = {"U-%d"}
+		12 = {"U-%d"}
+		13 = {"U-%d"}
+		14 = {"U-%d"}
+		15 = {"U-%d"}
+		16 = {"U-%d"}
+		17 = {"U-%d"}
+		18 = {"U-%d"}
+		19 = {"U-%d"}
+		20 = {"U-%d"}
+		21 = {"U-%d"}
+		22 = {"U-%d"}
+		23 = {"U-%d"}
+		24 = {"U-%d"}
+		25 = {"U-%d"}
+		26 = {"U-%d"}
+	}
+}
+
+GER_SSC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_COASTAL_SUBMARINES
+
+	for_countries = { GER }
+
+	type = ship
+
+	ship_types = { ship_hull_submarine }
+        prefix = "SMU "
+	fallback_name = "UB-%d"
+
+	ordered = {
+		1 = {"UB-%d"}
+		2 = {"UB-%d"}
+		3 = {"UB-%d"}
+		4 = {"UB-%d"}
+		5 = {"UB-%d"}
+		6 = {"UB-%d"}
+		7 = {"UB-%d"}
+		8 = {"UB-%d"}
+		9 = {"UB-%d"}
+		10 = {"UB-%d"}
+		11 = {"UB-%d"}
+		12 = {"UB-%d"}
+		13 = {"UB-%d"}
+		14 = {"UB-%d"}
+		15 = {"UB-%d"}
+		16 = {"UB-%d"}
+		17 = {"UB-%d"}
+		18 = {"UB-%d"}
+		19 = {"UB-%d"}
+		20 = {"UB-%d"}
+		21 = {"UB-%d"}
+		22 = {"UB-%d"}
+		23 = {"UB-%d"}
+		24 = {"UB-%d"}
+		25 = {"UB-%d"}
+		26 = {"UB-%d"}
+	}
+}
+
+GER_SSM_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINELAYING_SUBMARINES
+
+	for_countries = { GER }
+
+	type = ship
+
+	ship_types = { ship_hull_submarine }
+        prefix = "SMU "
+	fallback_name = "UC-%d"
+
+	ordered = {
+		1 = {"UC-%d"}
+		2 = {"UC-%d"}
+		3 = {"UC-%d"}
+		4 = {"UC-%d"}
+		5 = {"UC-%d"}
+		6 = {"UC-%d"}
+		7 = {"UC-%d"}
+		8 = {"UC-%d"}
+		9 = {"UC-%d"}
+		10 = {"UC-%d"}
+		11 = {"UC-%d"}
+		12 = {"UC-%d"}
+		13 = {"UC-%d"}
+		14 = {"UC-%d"}
+		15 = {"UC-%d"}
+		16 = {"UC-%d"}
+		17 = {"UC-%d"}
+		18 = {"UC-%d"}
+		19 = {"UC-%d"}
+		20 = {"UC-%d"}
+		21 = {"UC-%d"}
+		22 = {"UC-%d"}
+		23 = {"UC-%d"}
+		24 = {"UC-%d"}
+		25 = {"UC-%d"}
+		26 = {"UC-%d"}
 	}
 }
