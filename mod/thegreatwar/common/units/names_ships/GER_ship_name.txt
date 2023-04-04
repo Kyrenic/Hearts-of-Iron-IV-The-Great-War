@@ -4,49 +4,181 @@
 	for_countries = { GER }
 
 	type = ship
-	ship_types = { capital_ship ship_hull_heavy battleship battle_cruiser battleship_1890 battleship_1900 }
+	ship_types = { ship_hull_heavy battleship battle_cruiser }
 
+        prefix = "SMS "
 	fallback_name = "Schlachtschiff %d"
 
 	ordered = {
-        1 = {"Hindenburg"}
-        2 = {"Ludendorff"}
-        3 = {"Friedrich der Große"}
-        4 = {"Brandenburg"}
-        5 = {"Hessen"}
-        6 = {"Zähringen"}
-        7 = {"Mecklenburg"}
-        8 = {"Elsass"}
-        9 = {"Lothringen"}
-        10 = {"Hannover"}
-        11 = {"Nassau"}
-        12 = {"Pommern"}
-        13 = {"Westfalen"}
-        14 = {"Rheinland"}
-        15 = {"Thüringen"}
-        16 = {"Württemberg"}
-        17 = {"Braunschweig"}
-        18 = {"Bayern"}
-        19 = {"Sachsen"}
-        20 = {"Baden"}
-        21 = {"Weissenburg"}
-        22 = {"Ostfriesland"}
-        23 = {"Oldenburg"}
-        24 = {"Posen"}
-        25 = {"Preussen"}
-        26 = {"Pillau"}
-        27 = {"Helgoland"}
-        28 = {"Schwaben"}
-        29 = {"Wörth"}
-        30 = {"Wettin"}
-        31 = {"Wittelsbach"}
-        32 = {"Orbotrit"}
-        33 = {"Ostmark"}
-        34 = {"Schleswig"}
-        35 = {"Holstein"}
-        36 = {"Franken"}
-        37 = {"Strelitz"}
-        38 = {"Vaterland"}
+                1 = {"Brandenburg"}
+                2 = {"Kurfürst Friedrich Wilhelm"}
+                3 = {"Weissenburg"}
+                4 = {"Wörth"}
+                5 = {"Kaiser Friedrich III"}
+                6 = {"Kaiser Wilhelm II"}
+                7 = {"Kaiser Wilhelm Der Grosse"}
+                8 = {"Kaiser Barbarossa"}
+                9 = {"Wittelsbach"}
+                10 = {"Wettin"}
+                11 = {"Zähringen"}
+                12 = {"Schwaben"}
+                13 = {"Mecklenburg"}
+                14 = {"Braunschweig"}
+                15 = {"Elsass"}
+                16 = {"Hessen"}
+                17 = {"Preussen"}
+                18 = {"Lothringen"}
+                19 = {"Deutschland"}
+                20 = {"Hannover"}
+                21 = {"Pommern"}
+                22 = {"Schlesien"}
+                23 = {"Schleswig-Holstein"}
+                24 = {"Nassau"}
+                25 = {"Westfalen"}
+                26 = {"Rheinland"}
+                27 = {"Posen"}
+                28 = {"Helgoland"}
+                29 = {"Ostfriesland"}
+                30 = {"Thüringen"}
+                31 = {"Oldenburg"}
+                32 = {"Kaiser"}
+                33 = {"Friedrich der Grosse"}
+                34 = {"Kaiserin"}
+                35 = {"Prinzregent Luitpold"}
+                36 = {"König Albert"}
+                37 = {"König"}
+                38 = {"Grosser Kurfürst"}
+                39 = {"Markgraf"}
+                40 = {"Kronprinz"}
+                41 = {"Bayern"}
+                42 = {"Baden"}
+                43 = {"Sachsen"}
+                44 = {"Württemberg"}
+	}
+}
+
+GER_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { GER }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship battle_cruiser }
+
+        # The Germans didn't use the term battlecruiser, they used their term for heavy cruiser, "Large Cruiser" instead.
+        prefix = "SMS "
+	fallback_name = "Großer Kreuzer %d"
+
+	ordered = {
+                1 = {"Von der Tann"}
+                2 = {"Moltke"}
+                3 = {"Goeben"}
+                4 = {"Seydlitz"}
+                5 = {"Derfflinger"}
+                6 = {"Lützow"}
+                7 = {"Hindenburg"}
+                8 = {"Mackensen"}
+                9 = {"Graf Spee"}
+                10 = {"Prinz Eitel Friedrich"}
+                11 = {"Fürst Bismarck"}
+	}
+}
+
+GER_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { GER }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+
+        prefix = "SMS "
+	fallback_name = "Großer Kreuzer %d"
+
+        # These are just the historical armoured cruisers, heavy cruisers didn't really come into existance until the interwar period.
+	ordered = {
+                1 = {"Prinz Heinrich"}
+                2 = {"Prinz Adalbert"}
+                3 = {"Roon"}
+                4 = {"Yorck"}
+                5 = {"Scharnhorst"}
+                6 = {"Gneisenau"}
+                7 = {"Blücher"}
+	}
+}
+
+GER_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { GER }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+        prefix = "SMS "
+	fallback_name = "Kleiner Kreuzer %d"
+
+        # First 9 are the unprotected cruisers, after that are 9 protected cruisers, the rest are light cruisers.
+	ordered = {
+                1 = {"Schwalbe"}
+                2 = {"Sperber"}
+                3 = {"Bussard"}
+                4 = {"Falke"}
+                5 = {"Seeadler"}
+                6 = {"Condor"}
+                7 = {"Cormoran"}
+                8 = {"Geier"}
+                9 = {"Gefion"}
+                10 = {"Irene"}
+                11 = {"Prinzess Wilhelm"}
+                12 = {"Kaiserin Augusta"}
+                13 = {"Victoria Louise"}
+                14 = {"Hertha"}
+                15 = {"Freya"}
+                16 = {"Vineta"}
+                17 = {"Hansa"}
+                18 = {"Fürst Bismarck"}
+                19 = {"Gazelle"}
+                20 = {"Niobe"}
+                21 = {"Nymphe"}
+                22 = {"Thetis"}
+                23 = {"Ariadne"}
+                24 = {"Amazone"}
+                25 = {"Medusa"}
+                26 = {"Frauenlob"}
+                27 = {"Arcona"}
+                28 = {"Undine"}
+                29 = {"Bremen"}
+                30 = {"Hamburg"}
+                31 = {"Berlin"}
+                32 = {"Lübeck"}
+                33 = {"München"}
+                34 = {"Leipzig"}
+                35 = {"Danzig"}
+                36 = {"Königsberg"}
+                37 = {"Nürnberg"}
+                38 = {"Stuttgart"}
+                39 = {"Stettin"}
+                40 = {"Dresden"}
+                41 = {"Emden}
+                42 = {"Kolberg"}
+                43 = {"Mainz"}
+                44 = {"Cöln"}
+                45 = {"Augsburg"}
+                46 = {"Magdeburg"}
+                47 = {"Breslau"}
+                48 = {"Strassburg"}
+                49 = {"Stralsund"}
+                50 = {"Karlsruhe"}
+                51 = {"Rostock"}
+                52 = {"Graudenz"}
+                53 = {"Regensburg"}
+                54 = {"Pillau"}
+                55 = {"Elbing"}
+                56 = {"Wiesbaden"}
+                57 = {"Frankfurt"}
+                58 = {"Brummer"}
+                59 = {"Bremse"}
 	}
 }
 
@@ -58,37 +190,36 @@ GER_DD_HISTORICAL = {
 	type = ship
 
 	ship_types = { destroyer destroyer_1890 destroyer_1900 }
-    prefix = "SMS "
-	fallback_name = "T %d"
+        prefix = "SMS "
+	fallback_name = "Z-%d"
 
 	ordered = {
-        1 = {"T174"}
-        2 = {"T175"}
-        3 = {"T176"}
-        4 = {"T177"}
-        5 = {"T178"}
-        6 = {"T179"}
-        7 = {"T180"}
-        8 = {"T181"}
-        9 = {"T182"}
-        10 = {"T183"}
-        11 = {"T184"}
-        12 = {"T185"}
-        13 = {"T186"}
-        14 = {"T187"}
-        15 = {"T188"}
-        16 = {"T189"}
-        17 = {"T190"}
-        18 = {"T191"}
-        19 = {"T192"}
-        20 = {"T193"}
-        21 = {"T194"}
-        22 = {"T195"}
-        23 = {"T196"}
-        24 = {"T197"}
-        25 = {"T198"}
-        26 = {"T199"}
-        27 = {"T200"}
+                1 = {"T174"}
+                2 = {"T175"}
+                3 = {"T176"}
+                4 = {"T177"}
+                5 = {"T178"}
+                6 = {"T179"}
+                7 = {"T180"}
+                8 = {"T181"}
+                9 = {"T182"}
+                10 = {"T183"}
+                11 = {"T184"}
+                12 = {"T185"}
+                13 = {"T186"}
+                14 = {"T187"}
+                15 = {"T188"}
+                16 = {"T189"}
+                17 = {"T190"}
+                18 = {"T191"}
+                19 = {"T192"}
+                20 = {"T193"}
+                21 = {"T194"}
+                22 = {"T195"}
+                23 = {"T196"}
+                24 = {"T197"}
+                25 = {"T198"}
+                26 = {"T199"}
+                27 = {"T200"}
 	}
 }
-
