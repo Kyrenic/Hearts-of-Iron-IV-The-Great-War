@@ -118,7 +118,62 @@ GER_CL_HISTORICAL = {
         prefix = "SMS "
 	fallback_name = "Kleiner Kreuzer %d"
 
-        # First 9 are the unprotected cruisers, after that are 9 protected cruisers, the rest are light cruisers.
+	ordered = {
+                1 = {"Gazelle"}
+                2 = {"Niobe"}
+                3 = {"Nymphe"}
+                4 = {"Thetis"}
+                5 = {"Ariadne"}
+                6 = {"Amazone"}
+                7 = {"Medusa"}
+                8 = {"Frauenlob"}
+                9 = {"Arcona"}
+                10 = {"Undine"}
+                11 = {"Bremen"}
+                12 = {"Hamburg"}
+                13 = {"Berlin"}
+                14 = {"Lübeck"}
+                15 = {"München"}
+                16 = {"Leipzig"}
+                17 = {"Danzig"}
+                18 = {"Königsberg"}
+                19 = {"Nürnberg"}
+                20 = {"Stuttgart"}
+                21 = {"Stettin"}
+                22 = {"Dresden"}
+                23 = {"Emden"}
+                24 = {"Kolberg"}
+                25 = {"Mainz"}
+                26 = {"Cöln"}
+                27 = {"Augsburg"}
+                28 = {"Magdeburg"}
+                29 = {"Breslau"}
+                30 = {"Strassburg"}
+                31 = {"Stralsund"}
+                32 = {"Karlsruhe"}
+                33 = {"Rostock"}
+                34 = {"Graudenz"}
+                35 = {"Regensburg"}
+                36 = {"Pillau"}
+                37 = {"Elbing"}
+                38 = {"Wiesbaden"}
+                39 = {"Frankfurt"}
+                40 = {"Brummer"}
+                41 = {"Bremse"}
+	}
+}
+
+GER_UNPROTECTED_CRUISERS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_UNPROTECTED_CRUISERS
+
+	for_countries = { GER }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+        prefix = "SMS "
+	fallback_name = "Kleiner Kreuzer %d"
+
 	ordered = {
                 1 = {"Schwalbe"}
                 2 = {"Sperber"}
@@ -129,56 +184,29 @@ GER_CL_HISTORICAL = {
                 7 = {"Cormoran"}
                 8 = {"Geier"}
                 9 = {"Gefion"}
-                10 = {"Irene"}
-                11 = {"Prinzess Wilhelm"}
-                12 = {"Kaiserin Augusta"}
-                13 = {"Victoria Louise"}
-                14 = {"Hertha"}
-                15 = {"Freya"}
-                16 = {"Vineta"}
-                17 = {"Hansa"}
-                18 = {"Fürst Bismarck"}
-                19 = {"Gazelle"}
-                20 = {"Niobe"}
-                21 = {"Nymphe"}
-                22 = {"Thetis"}
-                23 = {"Ariadne"}
-                24 = {"Amazone"}
-                25 = {"Medusa"}
-                26 = {"Frauenlob"}
-                27 = {"Arcona"}
-                28 = {"Undine"}
-                29 = {"Bremen"}
-                30 = {"Hamburg"}
-                31 = {"Berlin"}
-                32 = {"Lübeck"}
-                33 = {"München"}
-                34 = {"Leipzig"}
-                35 = {"Danzig"}
-                36 = {"Königsberg"}
-                37 = {"Nürnberg"}
-                38 = {"Stuttgart"}
-                39 = {"Stettin"}
-                40 = {"Dresden"}
-                41 = {"Emden"}
-                42 = {"Kolberg"}
-                43 = {"Mainz"}
-                44 = {"Cöln"}
-                45 = {"Augsburg"}
-                46 = {"Magdeburg"}
-                47 = {"Breslau"}
-                48 = {"Strassburg"}
-                49 = {"Stralsund"}
-                50 = {"Karlsruhe"}
-                51 = {"Rostock"}
-                52 = {"Graudenz"}
-                53 = {"Regensburg"}
-                54 = {"Pillau"}
-                55 = {"Elbing"}
-                56 = {"Wiesbaden"}
-                57 = {"Frankfurt"}
-                58 = {"Brummer"}
-                59 = {"Bremse"}
+	}
+}
+
+GER_PROTECTED_CRUISERS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_PROTECTED_CRUISERS
+
+	for_countries = { GER }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+
+        prefix = "SMS "
+	fallback_name = "Kleiner Kreuzer %d"
+
+	ordered = {
+                2 = {"Irene"}
+                3 = {"Prinzess Wilhelm"}
+                4 = {"Kaiserin Augusta"}
+                5 = {"Victoria Louise"}
+                6 = {"Hertha"}
+                7 = {"Freya"}
+                8 = {"Vineta"}
+                9 = {"Hansa"}
 	}
 }
 
