@@ -114,6 +114,9 @@ recruit_character = JAP_takarabe_takeshi
 recruit_character = JAP_yashiro_rokuro
 recruit_character = JAP_ishii_kikujiro
 
+#UNIQUE TECH
+set_country_flag = has_unique_naval_equipment
+
 1910.1.1 = {
 	oob = "JAP_1910"
 

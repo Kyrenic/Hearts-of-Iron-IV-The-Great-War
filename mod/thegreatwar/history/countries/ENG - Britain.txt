@@ -172,6 +172,9 @@ recruit_character = ENG_louis_alexander_mountbatten
 recruit_character = ENG_beauchamp_duff
 recruit_character = ENG_percy_zachariah_cox
 
+#UNIQUE TECH
+set_country_flag = has_unique_naval_equipment
+
 #################################################################
 
 1910.1.1 = {

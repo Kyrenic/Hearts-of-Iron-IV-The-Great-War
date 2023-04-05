@@ -142,6 +142,9 @@ recruit_character = GER_henning_von_holtzendorff # Also Advisor
 recruit_character = GER_friedrich_graf_von_baudissin
 recruit_character = GER_max_von_fischel # Also Advisor
 
+#UNIQUE TECH
+set_country_flag = has_unique_naval_equipment
+
 1910.1.1 = {
 	oob = "GER_1910"
 

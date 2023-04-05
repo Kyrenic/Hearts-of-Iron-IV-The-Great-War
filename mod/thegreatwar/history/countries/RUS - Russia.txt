@@ -101,6 +101,8 @@ recruit_character = RUS_andrei_eberhardt
 recruit_character = RUS_grand_duke_alexander
 recruit_character = RUS_aleksandr_rusin # Also Advisor
 
+#UNIQUE TECH
+set_country_flag = has_unique_naval_equipment
 
 1910.1.1 = {
 	oob = "RUS_1910"

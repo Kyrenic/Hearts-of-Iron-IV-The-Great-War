@@ -49,6 +49,10 @@ recruit_character = AUH_rudolf_montecuccoli
 recruit_character = AUH_karl_kailer_von_kagenfels
 recruit_character = AUH_maximilian_njegovan
 recruit_character = AUH_maximilian_daublebsky_von_sterneck
+
+#UNIQUE TECH
+set_country_flag = has_unique_naval_equipment
+
 1910.1.1 = {
 	puppet = BOS
 	# SPECIAL_DLC Together for Victory

@@ -159,6 +159,9 @@ if = {
 	}
 }
 
+#UNIQUE TECH
+set_country_flag = has_unique_naval_equipment
+
 1910.1.1 = {
 	oob = "USA_1910"
 

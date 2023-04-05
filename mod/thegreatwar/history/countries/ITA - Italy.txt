@@ -92,6 +92,9 @@ recruit_character = ITA_luigi_amedeo
 recruit_character = ITA_thaon_di_revel
 recruit_character = ITA_marcello_amero_dastestella
 
+#UNIQUE TECH
+set_country_flag = has_unique_naval_equipment
+
 1910.1.1 = {
 	oob = "ITA_1910"
 
