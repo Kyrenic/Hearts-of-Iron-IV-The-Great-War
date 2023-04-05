@@ -162,8 +162,10 @@ technology_folders = {
 	}
 	generic_naval_equipment_folder = {
 		available = {
-			has_dlc = "Man the Guns"
-			NOT = { has_country_flag = has_unique_naval_equipment }
+			AND = {
+				has_dlc = "Man the Guns"
+				NOT = { has_country_flag = has_unique_naval_equipment }
+			}
 		}
 		ledger = navy
 	}
@@ -174,8 +176,12 @@ technology_folders = {
 			OR = {
 				original_tag = GER
 				has_country_flag = ger_naval_technology
-				overlord = {
-					original_tag = GER
+				if = {
+					limit = { is_subject = yes }
+					overlord = { original_tag = GER }
+				}
+				else = {
+					always = no
 				}
 			}
 		}
@@ -188,8 +194,12 @@ technology_folders = {
 			OR = {
 				original_tag = ENG
 				has_country_flag = eng_naval_technology
-				overlord = {
-					original_tag = ENG
+				if = {
+					limit = { is_subject = yes }
+					overlord = { original_tag = ENG }
+				}
+				else = {
+					always = no
 				}
 			}
 		}
@@ -202,8 +212,12 @@ technology_folders = {
 			OR = {
 				original_tag = FRA
 				has_country_flag = fra_naval_technology
-				overlord = {
-					original_tag = FRA
+				if = {
+					limit = { is_subject = yes }
+					overlord = { original_tag = FRA }
+				}
+				else = {
+					always = no
 				}
 			}
 		}
@@ -216,8 +230,12 @@ technology_folders = {
 			OR = {
 				original_tag = RUS
 				has_country_flag = rus_naval_technology
-				overlord = {
-					original_tag = RUS
+				if = {
+					limit = { is_subject = yes }
+					overlord = { original_tag = RUS }
+				}
+				else = {
+					always = no
 				}
 			}
 		}
@@ -230,8 +248,12 @@ technology_folders = {
 			OR = {
 				original_tag = ITA
 				has_country_flag = ita_naval_technology
-				overlord = {
-					original_tag = ITA
+				if = {
+					limit = { is_subject = yes }
+					overlord = { original_tag = ITA }
+				}
+				else = {
+					always = no
 				}
 			}
 		}
@@ -244,8 +266,12 @@ technology_folders = {
 			OR = {
 				original_tag = AUH
 				has_country_flag = auh_naval_technology
-				overlord = {
-					original_tag = AUH
+				if = {
+					limit = { is_subject = yes }
+					overlord = { original_tag = AUH }
+				}
+				else = {
+					always = no
 				}
 			}
 		}
@@ -258,8 +284,12 @@ technology_folders = {
 			OR = {
 				original_tag = USA
 				has_country_flag = usa_naval_technology
-				overlord = {
-					original_tag = USA
+				if = {
+					limit = { is_subject = yes }
+					overlord = { original_tag = USA }
+				}
+				else = {
+					always = no
 				}
 			}
 		}
@@ -272,8 +302,12 @@ technology_folders = {
 			OR = {
 				original_tag = JAP
 				has_country_flag = jap_naval_technology
-				overlord = {
-					original_tag = JAP
+				if = {
+					limit = { is_subject = yes }
+					overlord = { original_tag = JAP }
+				}
+				else = {
+					always = no
 				}
 			}
 		}
